@@ -24,7 +24,12 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Test.vi" Type="VI" URL="../Test/Test.vi"/>
+		<Item Name="Test Get In ProgramFiles.vi" Type="VI" URL="../Test/Test Get In ProgramFiles.vi"/>
+		<Item Name="Test Get In ProgramData.vi" Type="VI" URL="../Test/Test Get In ProgramData.vi"/>
+		<Item Name="Test Get In AppData Local.vi" Type="VI" URL="../Test/Test Get In AppData Local.vi"/>
+		<Item Name="Test Get In AppData Roaming.vi" Type="VI" URL="../Test/Test Get In AppData Roaming.vi"/>
+		<Item Name="Test Get In User Documents.vi" Type="VI" URL="../Test/Test Get In User Documents.vi"/>
+		<Item Name="Test Get In Public Documents.vi" Type="VI" URL="../Test/Test Get In Public Documents.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
