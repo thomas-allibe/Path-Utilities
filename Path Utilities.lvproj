@@ -32,7 +32,8 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A816E808-E7F4-4D60-B641-E061F3A15229}</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Path-Utilities.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Path-Utilities.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
