@@ -21,6 +21,47 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Path-Utilities" Type="Packed Library">
+				<Property Name="Bld_buildCacheID" Type="Str">{4FCE45EA-906D-48CD-B014-83F990369289}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Path Utilities Packed Library to avoid VIPM pallette dependecy.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Path-Utilities</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A816E808-E7F4-4D60-B641-E061F3A15229}</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Path-Utilities.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/Path-Utilities.lvlibp</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B576C5FC-1666-44BF-9952-EB996C0C431F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Path Utilities.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Path-Utilities</Property>
+				<Property Name="TgtF_internalName" Type="Str">Path-Utilities</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Thomas ALLIBE</Property>
+				<Property Name="TgtF_productName" Type="Str">Path-Utilities</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{305ED744-BB06-48A6-912D-DAEC4AA145F4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Path-Utilities.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
