@@ -23,6 +23,7 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 	</Item>
 	<Item Name="Test" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Test Set Base Path.vi" Type="VI" URL="../Test/Test Set Base Path.vi"/>
 		<Item Name="Test Get In ProgramFiles.vi" Type="VI" URL="../Test/Test Get In ProgramFiles.vi"/>
 		<Item Name="Test Get In ProgramData.vi" Type="VI" URL="../Test/Test Get In ProgramData.vi"/>
 		<Item Name="Test Get In AppData Local.vi" Type="VI" URL="../Test/Test Get In AppData Local.vi"/>

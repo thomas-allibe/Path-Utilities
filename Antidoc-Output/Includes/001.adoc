@@ -5,7 +5,7 @@
 +++eg: "C:\ProgramData\MyCompany\MyApplication"+++
 
 
-*Version:* 0.0.1.0
+*Version:* 1.0.0.1
 
 .Functions (non private scope only)
 [cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
@@ -103,6 +103,14 @@
 +++"C:\Users\Public\Documents"+++
 
 +++Use "Set Base Path.vi" to set the base path for this vi.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Test Set Base Path
+|image:Path_Utilities.lvlib_Test_Set_Base_Path.vi.png[Path Utilities.lvlib:Test Set Base Path.vi]
+|+++Unit Test for "Get In AppData Local.vi".+++
 
 |image:empty.png[empty.png]
 |image:empty.png[empty.png]
