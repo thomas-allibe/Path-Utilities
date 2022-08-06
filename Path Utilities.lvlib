@@ -25,6 +25,7 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 		</Item>
 		<Item Name="Path Registration" Type="Folder">
 			<Item Name="Register Path.vi" Type="VI" URL="../Palette/Register Path.vi"/>
+			<Item Name="Get Registered Path.vi" Type="VI" URL="../Palette/Get Registered Path.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Test" Type="Folder">
@@ -36,6 +37,7 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 		<Item Name="Test Get In AppData Roaming.vi" Type="VI" URL="../Test/Test Get In AppData Roaming.vi"/>
 		<Item Name="Test Get In User Documents.vi" Type="VI" URL="../Test/Test Get In User Documents.vi"/>
 		<Item Name="Test Get In Public Documents.vi" Type="VI" URL="../Test/Test Get In Public Documents.vi"/>
+		<Item Name="Test Register Path.vi" Type="VI" URL="../Test/Test Register Path.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
