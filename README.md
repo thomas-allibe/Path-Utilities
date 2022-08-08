@@ -8,4 +8,5 @@ eg: "C:\ProgramData\MyCompany\MyApplication"
 
 ## Palette Description
 
-[See Antidoc Documentation](Antidoc-Output/Project-Documentation.html)
+- [See Asciidoc Documentation](Antidoc-Output/Project-Documentation.adoc)
+- [See HTML Documentation](Antidoc-Output/Project-Documentation.html)
