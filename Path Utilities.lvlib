@@ -26,9 +26,10 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 		<Item Name="Path Registration" Type="Folder">
 			<Item Name="Register Path.vi" Type="VI" URL="../Palette/Register Path.vi"/>
 			<Item Name="Get Registered Path.vi" Type="VI" URL="../Palette/Get Registered Path.vi"/>
+			<Item Name="Clear Registered Paths.vi" Type="VI" URL="../Palette/Clear Registered Paths.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Test" Type="Folder">
+	<Item Name="Tests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Test Set Base Path.vi" Type="VI" URL="../Test/Test Set Base Path.vi"/>
 		<Item Name="Test Get In ProgramFiles.vi" Type="VI" URL="../Test/Test Get In ProgramFiles.vi"/>
