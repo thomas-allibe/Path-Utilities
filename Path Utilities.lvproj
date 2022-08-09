@@ -3,7 +3,9 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str">Path utilities to provide root names paths for applications.
-eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
+eg: "C:\ProgramData\MyCompany\MyApplication"
+
+And other stuff....</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -32,8 +34,9 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A816E808-E7F4-4D60-B641-E061F3A15229}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Path-Utilities.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Builds/Path-Utilities.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -44,7 +47,7 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B576C5FC-1666-44BF-9952-EB996C0C431F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AFFA63A7-4909-4AFB-83E0-D8198E8ADCE7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Path Utilities.lvlib</Property>

@@ -471,6 +471,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Path utilities to provide root names paths for applications.
 eg: "C:\ProgramData\MyCompany\MyApplication"</p>
 </div>
+<div class="paragraph">
+<p>And other stuff....</p>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -487,7 +490,10 @@ Path utilities to provide root names paths for applications.
 eg: "C:\ProgramData\MyCompany\MyApplication"</p>
 </div>
 <div class="paragraph">
-<p><strong>Version:</strong> 1.0.0.1</p>
+<p>And other stuff....</p>
+</div>
+<div class="paragraph">
+<p><strong>Version:</strong> 1.1.0.1</p>
 </div>
 <table class="tableblock frame-all grid-all stripes-none stretch">
 <caption class="title">Table 1. Functions (non private scope only)</caption>
@@ -650,6 +656,60 @@ eg: "C:\Users\Public\Documents\Base\Path"</p>
 </div></div></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Register Path</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/Path_Utilities.lvlib_Register_Path.vi.png" alt="Path Utilities.lvlib:Register Path.vi"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Register a Path associated with a Key.
+If the Key is already registered, this function replaces the original Path of the corresponding Key with the new Path value.</p>
+<p class="tableblock">No error is returned.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Get Registered Path</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/Path_Utilities.lvlib_Get_Registered_Path.vi.png" alt="Path Utilities.lvlib:Get Registered Path.vi"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Return the Registered Path associated to the given Key.
+If the Key is not found, the corresponding indicator is set to True and Not A Path is returned.</p>
+<p class="tableblock">Use "Register Path.vi" to register a Path.
+No error is returned.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Clear Registered Paths</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/Path_Utilities.lvlib_Clear_Registered_Paths.vi.png" alt="Path Utilities.lvlib:Clear Registered Paths.vi"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Clear all registered paths. Deleted paths are returned in Cleared Paths array.</p>
+<p class="tableblock">No error is returned.</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Test Set Base Path</p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="image"><img src="Images/Path_Utilities.lvlib_Test_Set_Base_Path.vi.png" alt="Path Utilities.lvlib:Test Set Base Path.vi"></span></p>
@@ -751,6 +811,38 @@ eg: "C:\Users\Public\Documents\Base\Path"</p>
 <p><span class="image"><img src="Images/Path_Utilities.lvlib_Test_Get_In_Public_Documents.vi.png" alt="Path Utilities.lvlib:Test Get In Public Documents.vi"></span></p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Unit Test for "Get In Public Documents.vi".</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Test Register Path</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/Path_Utilities.lvlib_Test_Register_Path.vi.png" alt="Path Utilities.lvlib:Test Register Path.vi"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Unit Test for "Register Path.vi".</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Test Get Registered Path</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><span class="image"><img src="Images/Path_Utilities.lvlib_Test_Get_Registered_Path.vi.png" alt="Path Utilities.lvlib:Test Get Registered Path.vi"></span></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No description found (add content in vi description)</p></td>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><span class="image"><img src="Images/empty.png" alt="empty.png"></span></p>
 </div></div></td>
@@ -990,7 +1082,7 @@ This is the author&#8217;s responsibility to list any of the missing product use
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-07-31 22:07:04 +0200
+Last updated 2022-08-09 23:57:23 +0200
 </div>
 </div>
 </body>

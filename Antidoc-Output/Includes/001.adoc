@@ -4,8 +4,10 @@
 +++Path utilities to provide root names paths for applications.+++
 +++eg: "C:\ProgramData\MyCompany\MyApplication"+++
 
++++And other stuff....+++
 
-*Version:* 1.0.0.1
+
+*Version:* 1.1.0.1
 
 .Functions (non private scope only)
 [cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
@@ -108,6 +110,39 @@
 |image:empty.png[empty.png]
 |image:empty.png[empty.png]
 
+|Register Path
+|image:Path_Utilities.lvlib_Register_Path.vi.png[Path Utilities.lvlib:Register Path.vi]
+|+++Register a Path associated with a Key.+++
++++If the Key is already registered, this function replaces the original Path of the corresponding Key with the new Path value.+++
+
++++No error is returned.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Get Registered Path
+|image:Path_Utilities.lvlib_Get_Registered_Path.vi.png[Path Utilities.lvlib:Get Registered Path.vi]
+|+++Return the Registered Path associated to the given Key.+++
++++If the Key is not found, the corresponding indicator is set to True and Not A Path is returned.+++
+
++++Use "Register Path.vi" to register a Path.+++
++++No error is returned.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Clear Registered Paths
+|image:Path_Utilities.lvlib_Clear_Registered_Paths.vi.png[Path Utilities.lvlib:Clear Registered Paths.vi]
+|+++Clear all registered paths. Deleted paths are returned in Cleared Paths array.+++
+
++++No error is returned.+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
 |Test Set Base Path
 |image:Path_Utilities.lvlib_Test_Set_Base_Path.vi.png[Path Utilities.lvlib:Test Set Base Path.vi]
 |+++Unit Test for "Get In AppData Local.vi".+++
@@ -160,6 +195,21 @@
 |image:Path_Utilities.lvlib_Test_Get_In_Public_Documents.vi.png[Path Utilities.lvlib:Test Get In Public Documents.vi]
 |+++Unit Test for "Get In Public Documents.vi".+++
 
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Test Register Path
+|image:Path_Utilities.lvlib_Test_Register_Path.vi.png[Path Utilities.lvlib:Test Register Path.vi]
+|+++Unit Test for "Register Path.vi".+++
+
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+|image:empty.png[empty.png]
+
+|Test Get Registered Path
+|image:Path_Utilities.lvlib_Test_Get_Registered_Path.vi.png[Path Utilities.lvlib:Test Get Registered Path.vi]
+|No description found (add content in vi description)
 |image:empty.png[empty.png]
 |image:empty.png[empty.png]
 |image:empty.png[empty.png]
