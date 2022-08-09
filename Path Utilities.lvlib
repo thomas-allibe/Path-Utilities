@@ -39,6 +39,7 @@ eg: "C:\ProgramData\MyCompany\MyApplication"</Property>
 		<Item Name="Test Get In User Documents.vi" Type="VI" URL="../Test/Test Get In User Documents.vi"/>
 		<Item Name="Test Get In Public Documents.vi" Type="VI" URL="../Test/Test Get In Public Documents.vi"/>
 		<Item Name="Test Register Path.vi" Type="VI" URL="../Test/Test Register Path.vi"/>
+		<Item Name="Test Get Registered Path.vi" Type="VI" URL="../Test/Test Get Registered Path.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
